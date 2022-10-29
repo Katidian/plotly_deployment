@@ -13,9 +13,11 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron text-center" 
+      style="background-image: url(https://phil.cdc.gov//PHIL_Images/15228/15228_lores.jpg);
+      background-size: cover">
+        <h1 style="color: white;">Belly Button Biodiversity Dashboard</h1>
+        <p style="color: white;">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
@@ -30,6 +32,15 @@
             <h3 class="panel-title">Demographic Info</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <p><strong>Use the dashboard on this page to explore the relationship between belly button wash frequency 
+              and the amounts and types of bacteria present in our sample subjects' belly buttons.</strong>
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-md-5">
@@ -48,7 +59,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots.js"></script>
+  <script src="charts.js"></script>
 
 </body>
 
